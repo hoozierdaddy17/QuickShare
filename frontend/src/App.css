@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background: #eafaf1; /* Light green background */
+  border-radius: 5px;
+  display: flex;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.main-wrapper {
+  background-image: url('https://images.pexels.com/photos/534164/pexels-photo-534164.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #2c3e50; /* Darker shade for heading */
+  margin: 40px 0;
+}
+
+input {
+  margin: 20px 0;
+  width: 300px;
+  padding: 8px;
+  border: 1px solid #b2d8b2; /* Light green border */
+}
+
+input:focus-visible {
+  outline: none;
+  border-color: #27ae60; /* Green border on focus */
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #27ae60; /* Green background */
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  margin: 30px 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #219150; /* Darker green on hover */
+}
